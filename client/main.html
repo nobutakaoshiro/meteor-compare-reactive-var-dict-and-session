@@ -1,0 +1,33 @@
+<head>
+  <title>Compare ReactiveVar, ReactiveDict and Session</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+  {{> info}}
+</body>
+
+<template name="hello">
+  <h3>Experimental</h3>
+
+  <button class="js-countup1">Click Me (ReactiveVar)</button>
+  <p>You've pressed the button {{counter1}} times.</p>
+
+  <button class="js-countup2">Click Me (ReactiveDict)</button>
+  <p>You've pressed the button {{counter2}} times.</p>
+
+  <button class="js-countup3">Click Me (Session)</button>
+  <p>You've pressed the button {{counter3}} times.</p>
+</template>
+
+<template name="info">
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+  </ul>
+</template>
